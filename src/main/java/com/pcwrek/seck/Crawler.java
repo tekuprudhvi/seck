@@ -68,12 +68,7 @@ public class Crawler {
 			demovisitUrl(0, new Integer(depth), url, url);
 
 		}else{	
-			System.out.println("Demo Parameter called");
-			System.out.println("Demo Parameter called");
-			System.out.println("Demo Parameter called");
-			System.out.println("Demo Parameter called");
-			System.out.println("Demo Parameter called");
-			System.out.println("Demo Parameter called");
+			
 			System.out.println("Without Demo Parameter ");
 			 visitUrl(0, new Integer(depth), url, url);		
 
