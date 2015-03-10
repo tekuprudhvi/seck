@@ -56,6 +56,7 @@ public class Crawler {
 		String depth = args[1];
 		String url = args[3];
 		
+		
 		fileExtension();	
 		String filePath = "hw1.json";
 		//String url = "http://www.calstatela.edu";
@@ -67,13 +68,20 @@ public class Crawler {
 			demovisitUrl(0, new Integer(depth), url, url);
 
 		}else{	
-			
+			System.out.println("Demo Parameter called");
+			System.out.println("Demo Parameter called");
+			System.out.println("Demo Parameter called");
+			System.out.println("Demo Parameter called");
+			System.out.println("Demo Parameter called");
+			System.out.println("Demo Parameter called");
 			System.out.println("Without Demo Parameter ");
 			 visitUrl(0, new Integer(depth), url, url);		
 
 		}
 		
+		System.out.println("Without Demo Parameter ");
 		 storeData(path+filePath);
+		 
 		
 //		storeData(folder+filePath);
 		System.out.println("====== Done ========" + path);	
