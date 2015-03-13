@@ -99,16 +99,7 @@ public class Extractor {
 			AutoDetectParser parser = new AutoDetectParser();
 
 			parser.parse(fileInputStream, contenthandler, metadata);
-//			metaDateJson.put("date", metadata.get(Metadata.CREATION_DATE));
-//			metaDateJson.put("author", metadata.get(Metadata.AUTHOR));
-//			metaDateJson.put("language", metadata.get(Metadata.LANGUAGE));
-//			metaDateJson.put("subject", metadata.get(Metadata.SUBJECT));
-//			metaDateJson.put("title", metadata.get(Metadata.TITLE));
-//			metaDateJson.put("latitude", metadata.get(Metadata.LATITUDE));
-//			metaDateJson.put("location", metadata.get(Metadata.LOCATION));
-//			metaDateJson.put("length", metadata.get(Metadata.IMAGE_LENGTH));
-//			metaDateJson.put("width", metadata.get(Metadata.IMAGE_WIDTH));
-//			metaDateJson.put("publisher", metadata.get(Metadata.PUBLISHER));
+
 			
 			for(int i = 0; i <metadata.names().length; i++) 
 			{ 
